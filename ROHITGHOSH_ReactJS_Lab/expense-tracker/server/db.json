@@ -1,0 +1,22 @@
+{
+  "expenses": [
+    {
+      "title": "Rent",
+      "amount": 2500,
+      "createdAt": 1684769859801,
+      "id": 1
+    },
+    {
+      "title": "Party",
+      "amount": 250,
+      "createdAt": 1684769903711,
+      "id": 2
+    },
+    {
+      "title": "asfad",
+      "amount": 54,
+      "createdAt": 1684772410729,
+      "id": 3
+    }
+  ]
+}

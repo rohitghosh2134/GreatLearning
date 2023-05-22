@@ -1,0 +1,28 @@
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  background-color: #eee;
+}
+
+.nav-link:hover {
+  background-color: #ddd;
+}
+
+/* Additional styles for your components can be added here */

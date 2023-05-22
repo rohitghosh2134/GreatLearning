@@ -1,0 +1,20 @@
+/* Expenses.css */
+
+.expenses-container {
+  margin-top: 20px;
+}
+
+.expense-item {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.expense-item .date {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.expense-item .amount {
+  color: green;
+}
