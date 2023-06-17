@@ -1,0 +1,49 @@
+/* CSS styles for the form */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+form {
+  width: 70%;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 5px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+/* CSS styles for the fixed image on the right side */
+#fixedImage {
+  position: fixed;
+  top: 0;
+  right: 0;
+  max-width: 30%;
+  height: auto;
+}
