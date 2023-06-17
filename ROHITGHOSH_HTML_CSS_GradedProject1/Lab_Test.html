@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Lab Test</title>
+    <link rel="stylesheet" href="./styles/css/Lab_Test.css">
+</head>
+
+<body>
+
+    <section id="block">
+        <form action="" id="lab-form">
+            <img src="Images/Lab-Test/lab-test.jpg" alt="Image">
+            <h2>1. Your Contact Details</h2>
+
+            <input type="text" title="patient_name" placeholder="Full Name" required>
+
+            <input type="number" title="patient_id" placeholder="Patient Id if exists" required>
+
+            <input type="number" title="contact_no" min="6000000000" max="9999999999" placeholder="Contact Number"
+                required>
+
+            <input type="email" title="email" placeholder="Email id" required>
+
+            <h2>2. Address</h2>
+            <input type="text" title="h-no" placeholder="H-No" required>
+
+            <input type="text" title="street" placeholder="Street" required>
+
+            <input type="text" title="area" placeholder="Area" required>
+
+            <h4>District</h4>
+            <select name="District" id="district" required>
+                <option value="">Choose</option>
+                <option value="Bangalore Urban">Bangalore Urban</option>
+                <option value="Bangalore Rural">Bangalore Rural</option>
+                <option value="Ramnagar">Ramnagar</option>
+            </select>
+
+            <h2>3. Choose the Test Type</h2>
+            <p>(Check atleast one box without fail)</p>
+            <input type="checkbox" id="c1" name="option1" value="CBC">
+            <label for="c1">CBC</label>
+            <br>
+            <input type="checkbox" id="c2" name="option2" value="Complete Urine">
+            <label for="c2">Complete Urine</label>
+            <br>
+            <input type="checkbox" id="c3" name="option3" value="Lipid Profile">
+            <label for="c3">Lipid Profile</label>
+            <br>
+            <input type="checkbox" id="c4" name="option4" value="Thyroid Stimulating Hormone(TSH)">
+            <label for="c3">Thyroid Stimulating Hormone(TSH)</label>
+            <br>
+            <input type="checkbox" id="c4" name="option5" value="Glucose Test">
+            <label for="c3">Glucose Test</label>
+
+            <h2>4. Do you want a hard copy of the report also?</h2>
+            <input type="radio" id="c5" name="option" value="True" required>
+            <label for="c5">Yes</label>
+
+            <input type="radio" id="c6" name="option" value="False">
+            <label for="c6">No</label>
+
+            <h2>5. Select Your Comfortable <br> Date and Time</h2>
+            <input type="date" name="date" required>
+            <br>
+            <input type="time" required>
+        </form>
+        <button form="lab-form">Reset</button>
+        <button form="lab-form">Submit</button>
+    </section>
+</body>
+
+</html>
