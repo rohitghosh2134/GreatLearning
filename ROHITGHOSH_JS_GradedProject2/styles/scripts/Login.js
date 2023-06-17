@@ -3,22 +3,22 @@ function noBack() {
     window.history.forward();
 }
 
-sessionStorage.setItem("credentials",JSON.stringify({name:["sushanth","nitika"], passcode:["123", "456"]}))
+sessionStorage.setItem("credentials", JSON.stringify({ name: ["rohit"], passcode: ["123"] }))
 var res = sessionStorage.getItem("credentials")
 console.log(res)
 
-function validate(){
+function validate() {
     var username = document.getElementById("username").value
     var password = document.getElementById("password").value
 
     var cred = JSON.parse(res)
 
-    cred.name.map((item, ind)=>{
-        
-        if(username === item && password === cred.passcode[ind]){
-            location.href="Resume.html"
+    cred.name.map((item, ind) => {
+
+        if (username === item && password === cred.passcode[ind]) {
+            location.href = "Resume.html"
         }
-        else{
+        else {
             document.getElementById("error").innerHTML = "Invalid username/password"
         }
     })
